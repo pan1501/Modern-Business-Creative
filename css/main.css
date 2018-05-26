@@ -1,0 +1,104 @@
+html,body 
+{
+    height: 100%;
+}
+
+#map{
+	width:65%;
+	height:300px;
+	display:block;
+	margin: 0px 0px 0px 15px;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+header.carousel {
+    height: 100%;
+}
+
+header.carousel .item,header.carousel .item.active,header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Project-Outline {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.Project-Outline sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+
+}
+
+/*#done{*/
+/*background-color:*/
+/*}*/
+#submit_btn{
+	float:right;
+		display:inline-block;
+	margin:-10% 20% 0% 0px;
+}
+footer {
+    margin: 50px 0;
+}
+#firstProjectBuyButton, #secondProjectBuyButton, #thirdProjectBuyButton{
+	float:right;
+	margin:40% 5% 0px 0px;
+	display:inline-block;
+	color:#333;
+	font-size:50px;
+}
+#secondProjectBuyButton{
+	margin:47% 5% 0px 0px;
+}
+#thirdProjectBuyButton{
+	margin:37% 5% 0px 0px;
+}
+#progress_section1 {
+    margin: 150px auto 30px auto;
+    height: 600px;
+}
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.logout-btn {
+    color: red;
+}
